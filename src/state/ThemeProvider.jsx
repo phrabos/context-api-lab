@@ -15,9 +15,9 @@ const ThemeProvider = ({ children }) => {
   );
 };
 
-export const useThemeContext = () => {
-  return useContext(ThemeContext);
-};
+// export const useThemeContext = () => {
+//   return useContext(ThemeContext);
+// };
 
 export const useChangeTheme = () => {
   const { changeTheme } = useContext(ThemeContext);
